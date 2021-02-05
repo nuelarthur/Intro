@@ -1,0 +1,84 @@
+
+html {
+  box-sizing: border-box;
+}
+section {
+    display: block;
+}
+body {
+    background:aliceblue;
+    color:#aliceblue;
+    font-family: "sans",sans-serif;
+    font-size: 100%;
+    line-height: 24px;
+    margin: 0;
+	padding:0;
+
+}
+
+.kumuyi-container {
+	margin: 0 auto;
+	padding-left:12px;
+  padding-right:12px;
+  padding-top:200px
+}
+
+[class^="col-rt-"] {
+  padding: 120px 30px;
+  min-height: 1px;
+  position: relative;
+}
+
+.simpleLogin {
+}
+
+.simpleLogin form {
+  max-width: 400px;
+  margin: auto;
+  background:aliceblue;
+}
+
+.simpleLogin form fieldset {
+    border: 0 none;
+    margin: 0;
+    padding: 20px;
+}
+.simpleLogin form legend,
+.simpleLogin form fieldset input {
+  font-family: sans-serif;
+  font-weight:bold;
+  font-size:15px;
+}
+
+.simpleLogin form legend {
+    background-color: cornflowerblue;
+    color: white;
+    display: table-cell;
+    padding: 10px 20px;
+    width: auto;
+}
+.simpleLogin form fieldset input {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px 5%;
+  border: thin #8fc400 solid;
+}
+.simpleLogin input[type="submit"] {
+  width: 100px;
+  float: left;
+  background: cornflowerblue;
+  color: white;
+  transition: .2s;
+  border: 0;
+  cursor:pointer;
+}
+
+
+.simpleLogin input[type="submit"]:focus,
+.simpleLogin input[type="submit"]:hover,
+.simpleLogin input[type="submit"]:active {
+  padding: 10px 5%;
+  background:#B3E226;
+  outline: none;
+}
+
